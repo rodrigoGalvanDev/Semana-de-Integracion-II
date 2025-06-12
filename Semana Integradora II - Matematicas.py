@@ -21,9 +21,9 @@ conjunto_2 = {int(x) for x in conjunto_2}
 conjunto_3 = {int(x) for x in conjunto_3}
 
 # Mostrar los conjuntos por consola
-print(conjunto_1)
-print(conjunto_2)
-print(conjunto_3)
+print(f"Conjunto A = {conjunto_1}")
+print(f"Conjunto B = {conjunto_2}")
+print(f"Conjunto C = {conjunto_3}")
 
 # Operaciones con los conjutos
 union = conjunto_1.union(conjunto_2,conjunto_3)
@@ -32,10 +32,10 @@ diferencia = conjunto_1.difference(conjunto_2,conjunto_3)
 diferencia_simetrica = conjunto_1 ^ conjunto_2 ^ conjunto_3
 
 # Mostrar las operaciones por consola
-print(union)
-print(interseccion)
-print(diferencia)
-print(diferencia_simetrica)
+print(f"Unión: {union}")
+print(f"Intersección:{interseccion}")
+print(f"Diferencia:{diferencia}")
+print(f"Diferencia simétrica:{diferencia_simetrica}")
 
 # Contar Frecuencia de Cada DNI
 
@@ -94,9 +94,9 @@ anios_nacimiento = [1995,1999,2000]
 # Determinar si nacio en año par o impar
 for i in range(0,3):
     if anios_nacimiento[i] % 2 == 0:
-        print("Nacio en año par")
+        print(f"Nació en {anios_nacimiento[i]} por lo tanto nació en año par")
     else:
-        print("Nacio en año impar")
+        print(f"Nació en {anios_nacimiento[i]} por lo tanto nació en año impar")
 
 # Determinar si todos los integrantes nacieron despues del 2000
 if all(anio > 2000 for anio in anios_nacimiento):
