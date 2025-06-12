@@ -129,5 +129,5 @@ for i in range(0,3):
 producto_cartesiano = {(año, edad) for año in anios_nacimiento for edad in edades} # Producto cartesiano entre las edades y los años de nacimiento.
 
 # Mostramos el resultado.
-print(producto_cartesiano)
+print(f"Producto carteciano entre las edades: {producto_cartesiano}")
 
