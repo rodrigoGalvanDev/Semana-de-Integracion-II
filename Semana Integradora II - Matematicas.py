@@ -89,7 +89,7 @@ if interseccion:
 
 #Operaciones con los anios de naciomiento
 
-anios_nacimiento = [1995,1999,2000]
+anios_nacimiento = [1992,1999,2000]
 
 # Determinar si nacio en año par o impar
 for i in range(0,3):
