@@ -75,9 +75,9 @@ for i in range(0,8):
     sum_dni_3 += dni_3_int
 
 # Mostramos los resultados.
-print(sum_dni_1)
-print(sum_dni_2)
-print(sum_dni_3)
+print(f"Suma de los elementos del conjunto A = {sum_dni_1}")
+print(f"Suma de los elementos del conjunto B = {sum_dni_2}")
+print(f"Suma de los elementos del conjunto C = {sum_dni_3}")
 
 #Evaluacion de condiciones logica
 
