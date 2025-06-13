@@ -83,6 +83,10 @@ print(f"Suma de los elementos del conjunto C = {sum_dni_3}")
 
 if len(conjunto_1) > 6:
     print("Diversidad numérica alta")
+if len(conjunto_2) > 6:
+    print("Diversidad numérica alta")
+if len(conjunto_3) > 6:
+    print("Diversidad numérica alta")
 
 if interseccion:
     print(f"{interseccion} Digitos compartidos")
@@ -130,4 +134,3 @@ producto_cartesiano = {(año, edad) for año in anios_nacimiento for edad in eda
 
 # Mostramos el resultado.
 print(f"Producto carteciano entre las edades: {producto_cartesiano}")
-
